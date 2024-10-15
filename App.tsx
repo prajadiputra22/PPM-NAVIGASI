@@ -1,7 +1,10 @@
-import {View, Text} from 'react-native';
 import React from 'react';
 import AppNavigator from './src/navigation/AppNavigator';
-// import {GestureHandlerRootView} from 'react-native-gesture-handler';
+import { createStackNavigator } from '@react-navigation/stack';
+import Coffee from './src/screens/TabScreen/Home';
+
+
+const Stack = createStackNavigator();
 
 const App = () => {
   return (
